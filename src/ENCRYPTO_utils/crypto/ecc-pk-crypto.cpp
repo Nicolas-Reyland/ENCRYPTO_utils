@@ -320,6 +320,7 @@ void ecc_num::set(num* src) {
 }
 void ecc_num::set_si(int32_t src) {
 	//TODO implement this method
+    (void)src;
 }
 void ecc_num::set_add(num* a, num* b) {
 	std::lock_guard<std::mutex> lock(relic_mutex);
